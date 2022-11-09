@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+
+    background-image: url("./images/bacground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.game__inner {
+    width: 100%;
+    max-width: 1100px;
+    padding: 50px 70px;
+    
+}
+
+.hero {
+    padding: 50px 100px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    margin-top: 50px;
+}
+
+.game__level {
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(55, 55, 241, 0.708);
+    color: #fff;
+    font-size: 24px;
+}
+
+.start {
+    padding: 20px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    transition: all 0.4s ease;
+    font-size: 18px;
+
+
+}
+
+.start:hover {
+    box-shadow: #ff0000a8 0px 5px 15px 0px;
+}
+
+.start:active {
+    box-shadow: none;
+}
+
+ul {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 150px;
+    width: 100%;
+    max-width: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+img {
+    max-width: 100px;
+    width: 100%;
+}
+
+.game__title{
+    width: 100%;
+    max-width: 1050px;
+    padding: 25px;
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 8px;
+}
+.white{
+    background-color: #fff;
+}
