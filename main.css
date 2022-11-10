@@ -66,6 +66,32 @@ body {
 
 }
 
+.game__point{
+    padding: 20px;
+    color: #fff;
+   text-align: center;
+    position: absolute;
+    position: fixed;
+    top: 90px ;
+    left: 90px;
+    display: block;
+    box-shadow: rgba(255, 255, 255, 0.708) 0px 5px 15px 0px;
+    background-color: #fff;
+    border-radius: 50px;
+    background-color: #005CA1;
+    border: 2px solid #fff;
+    display: none;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.red{
+    font-size: 18px;
+    color: red;
+}
 .start:hover {
     box-shadow: #ff0000a8 0px 5px 15px 0px;
 }
